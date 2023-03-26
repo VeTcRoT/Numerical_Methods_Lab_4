@@ -15,3 +15,12 @@ foreach (var item in iteration.GetResult())
 {
     Console.WriteLine(item);
 }
+
+Console.WriteLine();
+
+var seidel = new IterationMethod(systemMatrix, freeMembersColumn);
+
+foreach (var item in seidel.GetResult())
+{
+    Console.WriteLine(item);
+}
